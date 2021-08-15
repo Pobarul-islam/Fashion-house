@@ -62,13 +62,13 @@ ul li a:first-child:active{
 }
 
 .active{
-	red;
+	background-color: red;
 }
 .htext{
 	position: absolute;
 	top: 15rem;
 	text-align: center;
-	left: 12%;
+	left: 8%;
 	color: deeppink;
 	font-size: 20px;
 }
@@ -97,4 +97,37 @@ ul li a:first-child:active{
 
 .sliders{
 	height: 50rem;
+}
+
+
+.picsection{
+	text-align: center;
+}
+
+.picsection{
+	height: 20rem;
+}
+}
+
+.h2text{
+	height: 10rem;
+	text-align: center;
+	font-size:40px;
+}
+
+.pic1{
+	position: relative;
+	left: 30rem;
+}
+
+.pic2{
+	position: relative;
+	bottom:20.5rem;
+	left: 7rem;
+}
+
+.pic3{
+	position: relative;
+	bottom: 20.5 rem;
+	left: 
 }
