@@ -1,0 +1,100 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: 0;
+	box-sizing: border-box;
+}
+
+.row{
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+header{
+	background-image: url(IMG.jpg);
+	height: 85vh;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+}
+.logo{
+	position: absolute;
+	top: 1.5rem;;
+	left: 4rem;
+	font-size: 30px;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.logo a{
+	color: green;
+}
+.logo a:hover{
+	background: rgba(0, 128, 0, 0.12);
+	transition: 2s;
+}
+ul li{position: relative;
+	float: left;
+	display: inline-block;
+	left: 50%;
+	margin: 20px;
+	padding: 5px;
+	
+	
+}
+
+ul li a{
+	font-size: 20px;
+	color:brown;
+	padding: 10px;
+	border-radius: 5px;
+	text-align: center;
+
+}
+
+ul li a:hover{
+	background: rgba(255, 0, 0, 0.42);
+	transition: 2s;
+}
+
+ul li a:first-child:active{
+	background-color: aliceblue;
+}
+
+.active{
+	red;
+}
+.htext{
+	position: absolute;
+	top: 15rem;
+	text-align: center;
+	left: 12%;
+	color: deeppink;
+	font-size: 20px;
+}
+
+.htext2{
+	position: absolute;
+	top: 18rem;
+	left: 15%;
+	text-align: center;
+}
+
+.btn{
+	position: absolute;
+	top: 22rem;
+	left: 22%;
+	background: green;
+	color: #fff;
+	padding: 5px;
+}
+
+.btn:hover{
+	background: rgba(0, 0, 0, 0.22);
+	transition: 2s;
+}
+
+
+.sliders{
+	height: 50rem;
+}
